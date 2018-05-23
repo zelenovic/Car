@@ -9,12 +9,13 @@ public class Car {
     char condition = 'A';
     double currentPrice = 3000;
     int mileagePassed = 50000;
+    String color = "yellow";
 
     public Car() {
     }
 
     public Car(int maxSpeed, int minSpeed, double weight, boolean isTheCarOn,
-            String license, char condition, double currentPrice, int mileagePassed) {
+            String license, char condition, double currentPrice, int mileagePassed, String color) {
 
         this.maxSpeed = maxSpeed;
         this.minSpeed = minSpeed;
@@ -24,6 +25,7 @@ public class Car {
         this.condition = condition;
         this.currentPrice = currentPrice;
         this.mileagePassed = mileagePassed;
+        this.color = color;
 
     }
 
