@@ -29,7 +29,22 @@ public class Main {
         audi.printMainAttributes();
         audi.travel(3);
         audi.printMainAttributes();
-                        
+        
+        audi.getIn();
+        audi.getIn();
+        audi.getIn();
+        audi.getIn();
+        audi.getIn();
+        
+        audi.getOut();
+        audi.getOut();
+        audi.getOut();
+        audi.getOut();
+        audi.getOut();
+        audi.getOut();
+        
+        System.out.println("Da li je audi ukljucen: " + audi.isTheCarOn);
+                      
     }
     
 }
