@@ -22,27 +22,23 @@ public class Main {
         audi.changeModel("Audi");
         audi.fuelUp();
         
-        audi.changeConsumption(20);
+//        audi.changeConsumption(20);
+//        
+//        audi.printMainAttributes();
+//        audi.travel(3);
+//        audi.printMainAttributes();
+//        audi.travel(3);
+//        audi.printMainAttributes();
         
         audi.printMainAttributes();
-        audi.travel(3);
+        
+        audi.getIn(10);
+        audi.getIn(1);
+        
         audi.printMainAttributes();
-        audi.travel(3);
-        audi.printMainAttributes();
         
-        audi.getIn();
-        audi.getIn();
-        audi.getIn();
-        audi.getIn();
-        audi.getIn();
-        
-        audi.getOut();
-        audi.getOut();
-        audi.getOut();
-        audi.getOut();
-        audi.getOut();
-        audi.getOut();
-        
+        audi.getOut(15);
+                
         System.out.println("Da li je audi ukljucen: " + audi.isTheCarOn);
                       
     }

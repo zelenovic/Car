@@ -122,11 +122,19 @@ public class Car {
     }
 
     public void getIn(int numberOfPassengers) {
-        
+        if ((this.currentPassengers + numberOfPassengers) <= this.maxPassengers) {
+            this.currentPassengers = this.currentPassengers + numberOfPassengers;
+        } else {
+            System.out.println("Nema mesta za vise putnika, vozilo je puno!");
+        }
     }
     
     public void getOut(int numberOfPassengers) {
-        
+        if ((this.currentPassengers - numberOfPassengers) >= 0) {
+            this.currentPassengers = this.currentPassengers - numberOfPassengers;
+        } else {
+            System.out.println("Nedovoljno putnika u vozilu!");
+        }
     }
-    // poslednje 2 metode zavrsiti za domaci
+    
 }
